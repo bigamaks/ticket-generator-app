@@ -1,0 +1,151 @@
+/* Page background */
+.ticket-page {
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, #2b124c, #050014);
+  display: flex;
+  justify-content: center;
+  padding: 4rem 1rem;
+  color: #fff;
+  font-family: system-ui, sans-serif;
+}
+
+.ticket-container {
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+/* Header */
+.ticket-header {
+  margin-bottom: 4rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.logo-icon {
+  color: #ff8a65;
+}
+
+.ticket-header h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.ticket-header h1 span {
+  color: #ff8a65;
+}
+
+.ticket-header p {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #cbd5f5;
+}
+
+.highlight {
+  color: #ff8a65;
+}
+
+/* Ticket Card */
+.ticket-card {
+  margin: 0 auto;
+  max-width: 420px;
+  background: linear-gradient(135deg, #1e1b3a, #2c1d55);
+  border-radius: 16px;
+  display: flex;
+  padding: 1.5rem;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+/* Left side */
+.ticket-left {
+  flex: 1;
+  text-align: left;
+}
+
+.ticket-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.ticket-date {
+  font-size: 0.75rem;
+  color: #b9b5ff;
+  margin-bottom: 1.2rem;
+}
+
+.ticket-user {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.ticket-user img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ff8a65;
+}
+
+.ticket-user h3 {
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+}
+
+.ticket-user p {
+  font-size: 0.75rem;
+  color: #c7c4ff;
+}
+
+/* Divider */
+.ticket-divider {
+  width: 1px;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255,255,255,0.3),
+    rgba(255,255,255,0.3) 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  margin: 0 1rem;
+}
+
+/* Ticket ID */
+.ticket-id {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ticket-id p {
+  writing-mode: vertical-rl;
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  color: #c7c4ff;
+}
+
+.reset-btn {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  background: #ff8a65;
+  color: #050014;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
