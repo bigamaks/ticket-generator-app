@@ -1,12 +1,28 @@
-# React + Vite
+# 🎟 Coding Conference Ticket Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend ticket generation application built with React that simulates a real-world conference ticketing flow. Users can generate a personalized event ticket, preview it instantly, download it, and revisit it even after refreshing the page.
 
-Currently, two official plugins are available:
+## 🔍 Features
+- Ticket generation with user details
+- Avatar upload and preview
+- Unique ticket ID generation
+- Persistent ticket data using localStorage
+- Downloadable ticket (PNG)
+- Clean, responsive UI inspired by real event platforms
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- React
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- html-to-image (for ticket download)
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
+https://ticket-generator-app-ten.vercel.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Why this project?
+This project focuses on real frontend workflows such as form handling, state management, file uploads, persistence, and user flow design—mirroring how modern ticketing platforms behave without requiring a backend.
+
+## 📂 Getting Started
+```bash
+npm install
+npm run dev
